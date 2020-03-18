@@ -2,10 +2,18 @@
 
 ## How to get started
 
-1. Add links to GH project in all places marked `TODO: ADD_LINK`
-2. Add name of the author in all places marked `TODO: ADD_AUTHOR`
-3. Search for any other places makred with `TODO:`
-4. Fill content of `src/Directory.Build.props`
+1. Create a new empty repo with no initial files on GitHub
+2. Add links to GH project in all places marked `TODO: ADD_LINK`
+3. Add name of the author in all places marked `TODO: ADD_AUTHOR`
+4. Search for any other places makred with `TODO:`
+5. Fill content of `src/Directory.Build.props`
+6. Configure Git and push to remote:
+  - git init
+  - git add .
+  - git commit -m “initiall commit”
+  - git remote add origin LINK
+  - git push --set-upstream origin master
+
 
 
 ## What's included
